@@ -1,0 +1,142 @@
+@import '~antd/dist/antd.css';
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+
+body{
+    background-color: #ddd;
+}
+
+/*Header*/
+.headerwrap{
+    height: 50px;
+    background-color: #444;
+}
+.headerwrap header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.headerwrap img{
+    margin-top: 10px;
+    width: 120px;
+    float: left;
+}
+.headerwrap a{
+    margin-left: 20px;
+    color: #fff;
+}
+header input{
+    float: left;
+    margin:15px 10px 0 10px;
+}
+
+/*main*/
+.main{
+    width: 1200px;
+    margin: 30px auto;
+}
+.content{
+    width: 900px;
+    float: left;
+    /* border:2px solid red; */
+    /* background-color: #fff; */
+}
+.sider{
+    width: 270px;
+    height: 500px;
+    float: right;
+    background-color: rebeccapurple;
+}
+#sider1{
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  background: red;
+}
+#sider2{
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    float: left;
+    background: violet;
+}
+#sider3{
+    width: 250px;
+    height: 150px;
+    float: left;
+    margin: 0 auto;
+    background: yellow;
+}
+/*home*/
+
+.home-top {
+    height: 40px;
+    background-color:#f6f6f6;
+}
+.home-top a{
+    line-height: 40px;
+    margin:0 10px;
+    color: #80bd01;
+}
+.home-list{
+    background-color: #fff;
+}
+
+/**/
+.sider-div{
+    width: 900px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    padding-top: 30px;
+}
+
+.topic-div{
+    float: left;
+    width: 900px;
+    height: 50px;
+    padding: 10px 0;
+    background-color: #fff;
+}
+.topic-img1{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.topic-img2{
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+.topic-p{
+    float: left;
+}
+.topic-p0{
+    font-size: 14px;
+    margin:5px 0 0 15px;
+}
+.topic-p1{
+    font-size: 12px;
+    margin: 8px 20px 0 0;
+}
+.topic-p2{
+    margin: 7px 0 0 0;
+    width: 600px;
+    height: 24px;
+    overflow: hidden;
+    color: black;
+}
+.topic-p3{
+    float: right;
+    margin: 0 20px 0 20px;
+}
+.my-div{
+    width: 900px;
+    background-color: #fff;
+    overflow: auto;
+}

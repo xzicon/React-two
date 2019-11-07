@@ -1,0 +1,40 @@
+@import '~antd/dist/antd.css';
+
+.login{
+    width: 896px;
+    height: 200px;
+    background-color: #fff;
+}
+.login1{
+    padding: 50px 0 10px 100px;
+}
+.login2{
+    padding: 0 0 10px 100px;
+}
+.login input{
+    margin-left: 13px;
+    border-radius: 5px;
+    
+}
+#btn1{
+    width: 50px;
+    height: 30px;
+    background-color: #08c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 100px;
+}
+#btn2{
+    width: 150px;
+    height: 30px;
+    background-color: #08c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+}
+#pwd{
+   
+    margin-left: 5px;
+}
